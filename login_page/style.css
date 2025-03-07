@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f0f0f0; /* Light background color */
+}
+.container{
+    display: flex;
+    flex-direction: row; /* Align children in a row */
+    background-color: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent overflow */
+    max-width: 1200px; /* Set a max width for the container */
+    width: 100%; /* Full width */
+}
+.picture{
+    flex:2; /* Take up 1 part of the available space */
+     background-image: url(./assets/image.png);
+     background-size: cover;
+     background-position: center;
+     /* height: 900px;
+     width:1408px;
+     flex-shrink: 0; */
+     min-height: 900px; /* Minimum height for the picture */
+     max-width: 890px; /* Adjust as necessary */
+    }
+.login-form{
+    display: flex;
+    flex: 1;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px; /* Add padding */
+    align-items: flex-start;
+
+    
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+}
+img{
+    width: 48px;
+    height: 48px;
+    
+}
+svg{
+    width: 91.555px;
+    height: 14.451px;
+}
+    
+.btn-logo{
+    display: flex;
+    align-items: center;
+    gap: 9.613px;
+    margin-bottom: 48px;
+}
+p{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    gap: 8px;
+}
+.btn-login{
+    font-family: "pop";
+    font-size: 11px;
+    font-weight: 400;
+}
+#Email{
+    display: flex;
+    width: 416px;
+    padding: 8px 8px 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+#password{
+    display: flex;
+    width: 416px;
+    padding: 8px 8px 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}

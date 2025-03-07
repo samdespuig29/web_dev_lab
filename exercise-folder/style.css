@@ -1,0 +1,16 @@
+.logo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.nav{
+    height: 100%;
+    margin: auto;
+}
+.img{
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}

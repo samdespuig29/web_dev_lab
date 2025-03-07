@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: flex-end; */
+            /* align-items: flex-end; */
+            justify-content: center;
+            align-items: center;
+           
+            height: 100vh;
+            width: 100vw;
+            border: 10px solid black;
+        }
+        .container1{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid grey;
+
+        }
+        .flex-items{
+            height: 200px;
+            width: 200px;
+            display: flex;
+            align-items:center;
+            justify-content: space-around;
+
+            /* flex-direction: column;
+            justify-content: space-around; */
+            /* justify-content: center;
+            align-items: center; */
+            border: 5px solid black;
+        }
+        .items1, .items2, .items3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="flex-items">
+            <div class="items1"> <p>flex1</p></div>
+            <div class="items2"> <p>flex2</p></div>
+            <div class="items3"> <p>flex3</p></div>
+        </div>
+        <!-- <div class="container2">
+
+        </div> -->
+    </div>
+</body>
+</html>
